@@ -15,6 +15,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.img-fluid{
+  border-radius: 7px;
+}
+.hero-about{
+  background-image: url('../img/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/

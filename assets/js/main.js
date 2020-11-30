@@ -118,13 +118,27 @@
   // Init AOS
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 1500,
       easing: "ease-in-out-back",
       once: true
     });
   }
   $(window).on('load', function() {
     aos_init();
+  });
+
+  // ------------------------------------------------------- //
+  //   Lightbox in galleries
+  // ------------------------------------------------------ //
+
+  $('.gallery').each(function () { // the containers for all your galleries
+      $(this).magnificPopup({
+          delegate: 'a', // the selector for gallery item
+          type: 'image',
+          gallery: {
+              enabled: true
+          }
+      });
   });
 
 })(jQuery);
