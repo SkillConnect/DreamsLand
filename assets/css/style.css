@@ -55,7 +55,7 @@ p{
   background: #fff;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #topbar .contact-info a {
@@ -149,7 +149,7 @@ p{
   color: #5c768d;
   padding: 12px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -548,7 +548,7 @@ section {
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 40px 30px;
+  padding: 20px 15px;
   width: 100%;
   transition: 0.3s;
 }
@@ -571,5 +571,35 @@ section {
 }
 
 .why-us .icon-boxes .icon-box:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+.services .icon-boxes .icon-box {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px 15px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.services .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #165185;
+  margin-bottom: 15px;
+}
+
+.services .icon-boxes .icon-box p {
+  font-size: 18px;
+  color: #000;
+}
+
+.services .icon-boxes .icon-box:hover {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
 }
