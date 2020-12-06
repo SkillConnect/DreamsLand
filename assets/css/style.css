@@ -23,6 +23,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.float{
+  z-index: 10;
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+  background-color:#00bd7b;
+  font-size: 38px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -578,6 +591,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .icon-boxes a{
+  all: unset;
+  cursor: pointer;
+}
 
 .services .icon-boxes .icon-box {
   text-align: center;
@@ -595,7 +612,7 @@ section {
   margin-bottom: 15px;
 }
 
-.services .icon-boxes .icon-box p {
+.services .icon-boxes .icon-box p{
   font-size: 18px;
   color: #000;
 }

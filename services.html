@@ -37,6 +37,9 @@
         position: relative;
       }
    .center {margin: auto;}
+   @media (max-width: 600px) {
+      .align-text{margin-top: 15px;}
+   }
   </style>
 </head>
 
@@ -49,10 +52,9 @@
         <i class="icofont-phone"></i> +91 84465 62166
       </div>
       <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        <a href="https://wa.me/+918446562166" target="_blank"><i class="icofont-whatsapp"></i></a>
+        <a href="http://www.fb.com/dreamslandinterior" class="facebook" target="_blank"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/dreamsland_interior" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
       </div>
     </div>
   </section>
@@ -68,8 +70,8 @@
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="gallery.html">Design Gallery</a></li>
-          <li><a href="services.html">Our Services</a></li>
+          <li><a href="gallery.html">Design Gallery</a></li>
+          <li class="active"><a href="services.html">Our Services</a></li>
           <li><a href="works.html">How it Works</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -84,17 +86,14 @@
     <div class="container py-5 text-center" style="color:white">
        <h1>Our Services!</h1>
        <p>Begin your Dreamsland journey from the comfort of your home. <br>
-         This is a dummy text, we'll add some more description over here.
+         Choose from the wide variety of services we provide and let us help you build your paradise!
        </p>
     </div>
   </section>
   <!-- Hero Ends -->
 
   <div class="container my-3">
-     <div class="row my-5">
-        <div class="col-lg-6">
-           <img src="./assets/img/home/full.jpg" style="border-radius:20px;" width="100%">
-        </div>
+     <div class="row my-5" id="living">
         <div class="col-lg-6 center">
            <h1 class="text-primary">Living Room</h1>
            <p>
@@ -103,10 +102,16 @@
             TALKING, reading or watching TELEVISION. Shutter stock a living room needs to be LIVABLE.
           </p>
         </div>
+        <div class="col-lg-6">
+           <img src="./assets/img/home/full.jpg" style="border-radius:20px;" width="100%">
+        </div>
      </div>
      <hr>
-     <div class="row my-5">
-        <div class="col-lg-6 center">
+     <div class="row my-5" id="bedroom">
+       <div class="col-lg-6">
+          <img src="./assets/img/services/bedroom.jpg" style="border-radius:20px;" width="100%">
+       </div>
+        <div class="col-lg-6 center align-text">
            <h1 class="text-primary">Bedroom</h1>
            <p>
              This is a place where you eventual Resot to after ending an Uphill battle with the tiresome day. a place
@@ -115,16 +120,28 @@
              backdrop because your sound sleep is need of our design.
            </p>
         </div>
-       <div class="col-lg-6">
-          <img src="./assets/img/services/bedroom.jpg" style="border-radius:20px;" width="100%">
-       </div>
      </div>
      <hr>
-     <div class="row my-5">
+     <div class="row my-5" id="kitchen">
+        <div class="col-lg-6 center">
+           <h1 class="text-primary">Modular kitchen</h1>
+           <p>
+             Where the women spend most of the time a place where she would love to work like our work place
+             which means kitchen is the heart of the home and hence kitchen layout and design should be given
+             important consideration. <br><br>
+             Almost all kitchens are built as per modern style owning to their functional requirements.
+          </p>
+        </div>
+        <div class="col-lg-6">
+           <img src="./assets/img/home/full.jpg" style="border-radius:20px;" width="100%">
+        </div>
+     </div>
+     <hr>
+     <div class="row my-5" id="wardrobe">
        <div class="col-lg-6 center">
           <img src="./assets/img/services/wardrobe.jpg" style="border-radius:20px;" width="100%">
        </div>
-       <div class="col-lg-6 center">
+       <div class="col-lg-6 center align-text">
           <h1 class="text-primary">Wardrobe</h1>
           <p>
              Wardrobe is an essential part of any household. It not only as accentuates the beauty of the house, but
@@ -139,13 +156,15 @@
        </div>
      </div>
      <hr>
-     <div class="row my-5">
+     <div class="row my-5" id="sofa">
        <div class="col-lg-6 center">
-          <h1 class="text-primary">Modular Kitchen</h1>
+          <h1 class="text-primary">Sofa Sitting</h1>
           <p>
-             This is a place whether you relax after a long day or spent entertainmenting friends and family, the living
-             room is just - It&#39;s where you live. A living room is a room in home that&#39;s used for entertaining FRIENDS,
-             TALKING, reading or watching TELEVISION. Shutter stock a living room needs to be LIVABLE.
+            A Sofa enhances the look of your living room. It not only adds some but also gives extra comfort while
+            relaxing. A single seater sofa always works better than your traditional chair. Sofa seats are designed
+            and for extra comfort after a hectic day. You may read a book, play video games or watch a movie while
+            resting on our wooden sofa. Sofa colour and Designs that goes well with your home decor. You may also
+            pick any of the wooden sofa designs from our wood framed, fabric, leather and Leatherette.
           </p>
        </div>
       <div class="col-lg-6">
@@ -153,6 +172,79 @@
       </div>
      </div>
      <hr>
+     <div class="row my-5" id="tv-unit">
+        <div class="col-lg-6 center">
+           <img src="./assets/img/home/full.jpg" style="border-radius:20px;" width="100%">
+        </div>
+        <div class="col-lg-6 center align-text">
+           <h1 class="text-primary">Entertainment Unit</h1>
+           <p>
+             Apart from the sofa set, the TV cabinet of your living room has a significant impact on the overall look of
+             your house. While TV units keep your TV safe, they also provide a structured look for your Living room.
+             There are two types of TV unit designs. Either it could be a TV table where you can place your television
+             or it could be a TV cabinet where you’re wall-mounted TV can be set securely. In such a wall TV stand.
+             You can also place your TV remote and small home decor items. While looking for TV wall units. You
+             must consider its durability and sturdiness to save your TV from falling. Also you can experiment with
+             different design and material of Wall mount TV stand.
+          </p>
+        </div>
+     </div>
+     <hr>
+     <div class="row my-5" id="false-ceiling">
+        <div class="col-lg-6 center">
+           <h1 class="text-primary">False Ceiling</h1>
+           <p>
+             In simple terms, a false ceiling is a fitted ceiling that hangs below the original ceiling of room or home.
+             It&#39;s usually suspended by wooden or metal frames and the illusions it brings of a lower ceiling,
+             sometimes with parts of the original ceiling on display, has earned it the moniker dropped ceiling.
+           </p>
+        </div>
+       <div class="col-lg-6">
+          <img src="./assets/img/services/bedroom.jpg" style="border-radius:20px;" width="100%">
+       </div>
+     </div>
+     <hr>
+     <div class="row my-5" id="wall-painting">
+       <div class="col-lg-6 center">
+          <img src="./assets/img/services/wardrobe.jpg" style="border-radius:20px;" width="100%">
+       </div>
+       <div class="col-lg-6 center align-text">
+          <h1 class="text-primary">Wall Painting</h1>
+          <p>
+            Besides being the preferred look of your interiors, smooth surface help wall colour stand out better.
+            Because there are no bumps to create a shadow effect, the surface is brighter. That is the definition, our
+            definition, textured walls and ceiling have their place as they hide imperfections better but provides in
+            elegances and enhances your personality.
+          </p>
+       </div>
+     </div>
+     <hr>
+     <div class="row my-5" id="wall-decor">
+       <div class="col-lg-6 center">
+          <h1 class="text-primary">Wall Decor</h1>
+          <p>
+            There are many ways to decorate your wall. Wall decor paintings designs choose from unique designs of
+            wall plates, wall mirror, wall art, photo frames, key holders, sculptures and other.
+          </p>
+       </div>
+      <div class="col-lg-6">
+          <img src="./assets/img/home/modular.jpg" style="border-radius:20px;" width="100%">
+      </div>
+     </div>
+     <hr>
+     <div class="row my-5" id="cnc">
+       <div class="col-lg-6">
+           <img src="./assets/img/home/modular.jpg" style="border-radius:20px;" width="100%">
+       </div>
+       <div class="col-lg-6 center align-text">
+          <h1 class="text-primary">CNC Cutting</h1>
+          <p>
+            CNC Router (or computer numerical control router) is a computer-controlled cutting machine related to
+            the hand-held router used for cutting. This is a technical terms the technology in answer the beauty of
+            your home and also adds sparkle to your personality.
+          </p>
+       </div>
+     </div>
   </div>
 
   <!-- ======= Footer ======= -->
@@ -166,6 +258,7 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
   <!-- AOS: Fade in effects on scroll -->
   <script src="assets/vendor/aos/aos.js"></script>
